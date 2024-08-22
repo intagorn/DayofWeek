@@ -29,7 +29,8 @@
 
 
 **Output:**
-* แสดงข้อความ Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday หรือ Invalid Date   
+* แสดงข้อความ Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday หรือ Invalid Date
+  
 |Day Number| Day Name      | 
 |------------|------------|
 |0 | Sunday       | 
