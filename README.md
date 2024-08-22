@@ -1,17 +1,14 @@
-# Assignment: Day of the Week 2024 Calculator
+## Day of the Week 2024 Calculator
 
-## Objective
 จงเขียนโปรแกรมเพื่อคำนวณหาวันในสัปดาห์ โดยรับ input ดังนี้
 * เดือนในปี 2024 มีค่าที่ถูกต้องในช่วง (1-12)
 * วันที่ในเดือนดังกล่าว มีค่าที่ถูกต้องตามตารางด้านล่าง
   
 นักศึกษาสามารถสมมติได้ว่าผู้ใช้จะ input เป็นตัวเลข อย่างไรก็ตามต้วเลขอาจไม่อยู่ในช่วงที่ถูกต้อง
-จงเขียนโปรแกรมเพื่อคำนวณหาวันในสัปดาห์ 
+จงเขียนโปรแกรมเพื่อคำนวณหาวันในสัปดาห์ โดยวันที่ 1 January 2024 กำหนดให้เป็นวันจันทร์ (Day Number=1, Day Name=Monday)   
 
-
-## จำนวนวันใ
-
-Below is a table showing the number of days in each month for the year 2024 (a leap year):
+## จำนวนวันในแต่ละเดือน
+ตารางด้านล่างแสดงจำนวนในแต่ละเดือนของปี 2024 และจำนวนวันที่ผ่านมาจนถึงวันที่ 1 ของเดือนนั้น (Days Before)
 
 |Month Number| Month      | Days in Month | Days Before |
 |------------|------------|---------------|---------------|
@@ -29,19 +26,19 @@ Below is a table showing the number of days in each month for the year 2024 (a l
 |12 | December   | 31            | 335            |
 
 
-## Calculation Method
+**Output:**
+* แสดงข้อความ Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday หรือ Invalid Date   
+|Day Number| Day Name      | 
+|------------|------------|
+|0 | Sunday       | 
+|1 | Monday    | 
+|2 | Tuesday   | 
+|3 | Wednesday      |
+|4 | Thursday      | 
+|5 | Friday       |
+|6 | Saturday       | 
 
-1. **Input Specification:**
-   - Accept two integer inputs: `month` (1-12) and `day` (1 through the number of days in the specified month).
+**Hint:**
+คำนวณหาจำนวนวันจาก 1 January 2024 และทำการใช้ modulo 7
 
-2. **Output Specification:**
-   - Print the day of the week corresponding to the given date.
-
-3. **Implementation Details:**
-   - Calculate the total number of days from January 1 to the given date.
-   - Use modulo 7 to determine the day of the week.
-
-4. **Constraints:**
-   - Do not use any date functions or libraries.
-   - Use only `if` statements to determine the day of the week.
 
