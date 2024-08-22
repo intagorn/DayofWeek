@@ -1,45 +1,33 @@
-# Assignment: Day of the Week Calculator
+# Assignment: Day of the Week 2024 Calculator
 
 ## Objective
-Implement a program to determine the day of the week for a given date in the year 2024. The program should not use any built-in date functions or libraries, relying instead on basic arithmetic and conditional statements.
+จงเขียนโปรแกรมเพื่อคำนวณหาวันในสัปดาห์ โดยรับ input ดังนี้
+* เดือนในปี 2024 มีค่าที่ถูกต้องในช่วง (1-12)
+* วันที่ในเดือนดังกล่าว มีค่าที่ถูกต้องตามตารางด้านล่าง
+  
+นักศึกษาสามารถสมมติได้ว่าผู้ใช้จะ input เป็นตัวเลข อย่างไรก็ตามต้วเลขอาจไม่อยู่ในช่วงที่ถูกต้อง
+จงเขียนโปรแกรมเพื่อคำนวณหาวันในสัปดาห์ 
 
-## Days in Each Month
+
+## จำนวนวันใ
 
 Below is a table showing the number of days in each month for the year 2024 (a leap year):
 
-| Month      | Days in Month | Days Before |
+|Month Number| Month      | Days in Month | Days Before |
 |------------|---------------|---------------|
-| January    | 31            | 0            |
-| February   | 29            | 31            |
-| March      | 31            | 60            |
-| April      | 30            | 91            |
-| May        | 31            | 121            |
-| June       | 30            | 152            |
-| July       | 31            | 182            |
-| August     | 31            | 213             |
-| September  | 30            | 244             |
-| October    | 31            | 274            |
-| November   | 30            | 305             |
-| December   | 31            | 335            |
+|1 | January    | 31            | 0            |
+|2 | February   | 29            | 31            |
+|3 | March      | 31            | 60            |
+|4 | April      | 30            | 91            |
+|5 | May        | 31            | 121            |
+|6 | June       | 30            | 152            |
+|7 | July       | 31            | 182            |
+|8 | August     | 31            | 213             |
+|9 | September  | 30            | 244             |
+|10 | October    | 31            | 274            |
+|11 | November   | 30            | 305             |
+|12 | December   | 31            | 335            |
 
-## Days Before Given Month
-
-To calculate the total number of days before a given month, use the following:
-
-| Month      | Days Before |
-|------------|--------------|
-| January    | 0            |
-| February   | 31           |
-| March      | 31 + 29      |
-| April      | 31 + 29 + 31 |
-| May        | 31 + 29 + 31 + 30 |
-| June       | 31 + 29 + 31 + 30 + 31 |
-| July       | 31 + 29 + 31 + 30 + 31 + 30 |
-| August     | 31 + 29 + 31 + 30 + 31 + 30 + 31 |
-| September  | 31 + 29 + 31 + 30 + 31 + 30 + 31 + 31 |
-| October    | 31 + 29 + 31 + 30 + 31 + 30 + 31 + 31 + 30 |
-| November   | 31 + 29 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 |
-| December   | 31 + 29 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 30 |
 
 ## Calculation Method
 
