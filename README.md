@@ -7,20 +7,20 @@ Implement a program to determine the day of the week for a given date in the yea
 
 Below is a table showing the number of days in each month for the year 2024 (a leap year):
 
-| Month      | Days in Month |
-|------------|---------------|
-| January    | 31            |
-| February   | 29            |
-| March      | 31            |
-| April      | 30            |
-| May        | 31            |
-| June       | 30            |
-| July       | 31            |
-| August     | 31            |
-| September  | 30            |
-| October    | 31            |
-| November   | 30            |
-| December   | 31            |
+| Month      | Days in Month | Days Before |
+|------------|---------------|---------------|
+| January    | 31            | 0            |
+| February   | 29            | 31            |
+| March      | 31            | 60            |
+| April      | 30            | 91            |
+| May        | 31            | 121            |
+| June       | 30            | 152            |
+| July       | 31            | 182            |
+| August     | 31            | 213             |
+| September  | 30            | 244             |
+| October    | 31            | 274            |
+| November   | 30            | 305             |
+| December   | 31            | 335            |
 
 ## Days Before Given Month
 
