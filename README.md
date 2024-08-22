@@ -14,7 +14,7 @@
 Below is a table showing the number of days in each month for the year 2024 (a leap year):
 
 |Month Number| Month      | Days in Month | Days Before |
-|------------|---------------|---------------|
+|------------|------------|---------------|---------------|
 |1 | January    | 31            | 0            |
 |2 | February   | 29            | 31            |
 |3 | March      | 31            | 60            |
